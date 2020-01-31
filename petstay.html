@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="ecc,ECC,ecc comp.,...">
+    <meta name="description" content="ここに説明文を設定">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@twitteraccount">
+    <meta property="og:site_name" content="サイト名">
+    <meta property="og:title" content="サイトタイトル">
+    <meta property="og:description" content="サイト説明文">
+    <meta property="og:url" content="https://hoge.ecc.com/">
+    <meta property="og:image" content="https://hoge.ecc.com/ogp.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" hreflang="http://">
+    <link rel="alternate" type="" title="" href="http://">
+    <link rel="shortcut icon" href="" type="image/vnd.microsoft.icon">
+    <link rel="apple-touch-icon" href="">
+    <link rel="stylesheet" href="css/pet_style.css">
+    <link rel="stylesheet" href="css/highlight.js.css">
+    <link rel="stylesheet" href="css/swiper.min02.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sample.css">
+    <link rel="stylesheet" href="css/sample03.css">
+    <script src="js/highlight.js"></script>
+    <script src="js/highlightjs-line-numbers.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="//typesquare.com/3/tsad/script/ja/typesquare.js?5c41254eec98465ca3f047e8e90393a3" charset="utf-8"></script>
+
+    <title>PetStay</title>
+</head>
+<body>
+    <header>
+        <h1 id="logo"><img src="img/logo.png"></h1>
+        <div class="nav_enatir">
+            <div id="nav_header">
+                    <li><a href="#">ペットホストを探す</a></li>
+                    <li><a href="#">ペットホストになる</a></li>
+                    <li id="login"><a href="#">会員登録/ログイン</a></li>
+            </div>
+        </div>
+
+        <div class="aa">
+            <p class="pet_pic"><img src="img/frist_v.png" srcset="img/frist_v.png 480w, img/pc_main_index.png" sizes="(min-width: 480px) 500vw, 480px"></p>
+        </div>
+        <div id="nav-toggle">
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    
+    <div id="gloval-nav">
+        <nav>
+            <ul>
+                <li><a href="petstay.html">ペットステイとは？</a></li>
+                <li><a href="pet_search.html">ペットホストを探す</a></li>
+                <li><a href="petstay.html">ホームへ戻る</a></li>
+
+            </ul>
+        </nav>
+    </div><!-- /#gloval-nav -->
+    
+
+    </header>
+    <main>
+        <section>
+            <div class="petstay_search">
+                <h2 class="petstay_search_ttl">近くのペットホストを探す</h2>
+                <div class="entire">
+                    <div class="search01">
+                        <select name="pref_id">
+                            <option value="" selected>都道府県</option>
+                            <option value="1">北海道</option>
+                            <option value="2">青森県</option>
+                            <option value="3">岩手県</option>
+                            <option value="4">宮城県</option>
+                            <option value="5">秋田県</option>
+                            <option value="6">山形県</option>
+                            <option value="7">福島県</option>
+                            <option value="8">茨城県</option>
+                            <option value="9">栃木県</option>
+                            <option value="10">群馬県</option>
+                            <option value="11">埼玉県</option>
+                            <option value="12">千葉県</option>
+                            <option value="13">東京都</option>
+                            <option value="14">神奈川県</option>
+                            <option value="15">新潟県</option>
+                            <option value="16">富山県</option>
+                            <option value="17">石川県</option>
+                            <option value="18">福井県</option>
+                            <option value="19">山梨県</option>
+                            <option value="20">長野県</option>
+                            <option value="21">岐阜県</option>
+                            <option value="22">静岡県</option>
+                            <option value="23">愛知県</option>
+                            <option value="24">三重県</option>
+                            <option value="25">滋賀県</option>
+                            <option value="26">京都府</option>
+                            <option value="27">大阪府</option>
+                            <option value="28">兵庫県</option>
+                            <option value="29">奈良県</option>
+                            <option value="30">和歌山県</option>
+                            <option value="31">鳥取県</option>
+                            <option value="32">島根県</option>
+                            <option value="33">岡山県</option>
+                            <option value="34">広島県</option>
+                            <option value="35">山口県</option>
+                            <option value="36">徳島県</option>
+                            <option value="37">香川県</option>
+                            <option value="38">愛媛県</option>
+                            <option value="39">高知県</option>
+                            <option value="40">福岡県</option>
+                            <option value="41">佐賀県</option>
+                            <option value="42">長崎県</option>
+                            <option value="43">熊本県</option>
+                            <option value="44">大分県</option>
+                            <option value="45">宮崎県</option>
+                            <option value="46">鹿児島県</option>
+                            <option value="47">沖縄県</option>
+                        </select>
+                    </div>
+                    <div class="search02">
+                        <select name="pref_id">
+                            <option value="" selected> 市区町村</option>
+                            <option value="1">大阪市都島区</option>
+                            <option value="2">大阪市福島区</option>
+                            <option value="3">大阪市此花区</option>
+                            <option value="4">大阪市西区</option>
+                            <option value="5">大阪市港区</option>
+                            <option value="6">大阪市大正区</option>
+                            <option value="7">大阪市天王寺区</option>
+                            <option value="8">大阪市浪速区</option>
+                            <option value="9">大阪市西淀川区</option>
+                            <option value="10">大阪市東淀川区</option>
+                            <option value="11">大阪市東成区</option>
+                            <option value="12">大阪市生野区</option>
+                            <option value="13">大阪市旭区</option>
+                            <option value="14">大阪市城東区</option>
+                            <option value="15">大阪市阿倍野区</option>
+                            <option value="16">大阪市住吉区</option>
+                            <option value="17">大阪市東住吉区</option>
+                            <option value="18">大阪市西成区</option>
+                            <option value="19">大阪市淀川区</option>
+                            <option value="20">大阪市鶴見区</option>
+                            <option value="21">大阪市住之江区</option>
+                            <option value="22">大阪市平野区</option>
+                            <option value="23">大阪市北区</option>
+                            <option value="24">大阪市中央区</option>
+                            <option value="25">堺市堺区</option>
+                            <option value="26">堺市中区</option>
+                            <option value="27">堺市東区</option>
+                            <option value="28">堺市西区</option>
+                            <option value="29">堺市南区</option>
+                            <option value="30">堺市北区</option>
+                            <option value="31">堺市美原区</option>
+                        </select>
+                    </div>
+                    <div class="search_btn">
+                            <p><img src="img/search_icon.png"><a href="#">検索</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="itiran">
+            <div class="icon_arow">
+                <p><img src="img/pc_search_arrow.png"></p>
+            </div>
+            <div class="itiran_text">
+                <a href="#">ペットホスト一覧を見る</a>
+            </div>
+        </div>
+        <section>
+            <div class="petstay_about">
+                <h2 class="petstay_about_ttl"><img src="img/logo_02.png"></h2>
+                <div class="petstay_about_text">
+                    <p>旅行や出張でペットのお世話ができないときにお世話をしてくれる人を探すサービスです。</p>
+                    <p>犬や猫はもちろん、うさぎやハムスターなど15種類以上のペットを預けることができます。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="conB">
+                <div class="three_point_ttl">
+                        <p><img src="img/three_point_ttl.png"></p>
+                </div>
+            <div class="container">
+                <div class="text">
+                    <p class="three_point"><img src="img/three_point_1.png"></p>
+                    <h2>経験者に預けることができる</h2>
+                    <p>審査に合格した人にのみ預けられるので、ペットを安心して預けることができます</p>
+                </div>
+                <div class="text">
+                    <p class="three_point"><img src="img/three_point_2.png"></p>
+                    <h2>メッセージでやり取り可能</h3>
+                    <p>預ける方と直接メッセージをすることができます。不安なことは事前に相談してみましょう。</p>
+                </div>
+                <div class="text">
+                    <p class="three_point"><img src="img/three_point_3.png"></p>
+                    <h2>様々な動物</h2>
+                    <p>今までペットをあああああしたことはありませんか？Petstayでは様々な動物を預けることができます。</p>
+                </div>
+            </div>
+        </section>
+        <div class="three_point_ttl02">
+                <p><img src="img/bk_decoration1.png"></p>
+            </div>
+            <section class="conD">
+                    <div class="pethost_becom_img">
+                            <p><img src="img/petstay_use_ttl.png"></p>
+                    </div>
+                    <div class="pethost_application">
+    
+                        <div class="application_entair">
+                            <div class="application_become">
+                                <p><img src="img/petstay_be_1.png"></p>
+                            </div>
+                            <div class="howto_application">
+                                <h3><span>①</span>ペットホストを探す</h3>
+                                <p>条件に合うペットホストを検索することができます。過去の飼育員状況や、お家の環境も知ることができます。</p>
+                            </div>
+                        </div>
+                        <div class="application_entair">
+                            <div class="application_become">
+                                <p><img src="img/petstay_be_2.png"></p>
+                            </div>
+                            <div class="howto_application">
+                                <h3><span>②</span>予約をする</h3>
+                                <p>ぴったりなペットホストが見つかったら予約をしましょう。不安な事があれば事前に相談することができます。</p>
+                            </div>
+                        </div>
+                        <div class="application_entair">
+                                <div class="application_become">
+                                    <p><img src="img/petstay_be_3.png"></p>
+                                </div>
+                                <div class="howto_application">
+                                    <h3><span>③</span>ペットを連れて行く</h3>
+                                    <p>ペットホストの預ける場所まで、ペットを連れて行きましょう。必要なお泊りセットも、お忘れないように。</p>
+                                </div>
+                        </div>
+                </div>
+            </section>
+            <div class="ex04">
+            </div>
+            <div class="lets_pet">
+            <div class="repeat">
+                <div class="bk_01repeat">
+                    <div class="ex03"></div>
+                </div>
+            </div>
+            <p><img src="img/let_petstay.png" alt="let's Petstay"></p>
+            <p class="lets_pet_btn"><a href="#"><img src="img/let_petstay_btn01.png" alt="会員登録をする"></a>
+            <div class="repeat02">
+                <div class="bk_02repeat">
+                    <div class="ex03"></div>
+                </div>
+            </div>
+        </div>
+        <div class="ex04">
+        </div>
+        </div>
+        <section>
+            <div class="petstay_host">
+                <h2 class="petstay_host_ttl"><img src="img/petstay_be_ttl.png"></h2>
+                <div class="petstay_host_text">
+                    <p>ペットのホストファミリーになってあなたの経験を生かしてみませんか？</p>
+                    <div class="pc_txt"><p>お小遣いの欲しい主婦の方や、お仕事を引退して時間にゆとりのある方、<br>どんな方でも歓迎いたします。</p></div><p>不安なことがあればまずはトレーナーに相談することができます。</p>
+                </div>
+                <div class="host_pic_wrap">
+                    <p class="host_left_pic"><img src="img/petstay_be_left_pet.png"></p>
+                    <p class="host_right_pic"><img src="img/petstay_be_right_pet.png"></p>
+                </div>
+                <p><a href="#" class="more_btn more_btn_another">もっと見る<img src="img/arrow.png"></a></p>
+            </div>
+        </section>
+        <section>
+            <div class="petstay_stay">
+                <div class="petstay_bk">
+                    <h2><img src="img/petstay_stay_ttl.png"></h2>
+                </div>
+                <div class="sample sample01">
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img class="aaa" src="img/petstay_otomari.png"></div>
+                        <div class="swiper-slide"><img class="aaa" src="img/petstay_otomari.png"></div>
+                        <div class="swiper-slide"><img class="aaa" src="img/petstay_otomari.png"></div>
+                      </div>
+                  
+                      <div class="swiper-pagination"></div>
+                        
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <p><a href="#" class="more_btn more_btn_white">もっと見る<img src="img/arrow02.png"></a></p>
+                <div class="pet_user_coment02">
+                </div>
+            </div>
+        </section>
+        <section>
+                <div class="cp_qa">
+                        <div class="cp_actab">
+                            <input id="cp_tabfour031" type="checkbox" name="tabs">
+                            <label for="cp_tabfour031">どんな人がペットホストをしているの？</label>
+                            <div class="cp_actab-content">
+                            <p>ペットを預かるペットホストは、獣医師の面接を含む、確かな審査を経て登録されています。また、実際に預かる種類のペットを長期間飼われていたことがある、経験豊富な方達が集まっています。</p>
+                            </div>
+                        </div>
+                        <div class="cp_actab">
+                            <input id="cp_tabfour032" type="checkbox" name="tabs">
+                            <label for="cp_tabfour032">費用はどれぐらいかかるの？</label>
+                            <div class="cp_actab-content">
+                            <p>費用はそれぞれのペットホストさんが決めています。ペットの種類や日数によって様々です。例えば、ウサギを1匹を1日間預ける場合の平均費用は2000円です。</p>
+                            </div>
+                        </div>
+                        <a href="#" class="more_btn more_btn_another">もっと見る<img src="img/arrow.png"></a>
+                    </div>
+        </section>
+        <div class="ex04">
+        </div>
+        <div class="lets_pet">
+            <div class="repeat">
+                <div class="bk_01repeat">
+                    <div class="ex03"></div>
+                </div>
+            </div>
+            <p><img src="img/let_petstay.png" alt="let's Petstay"></p>
+            <p class="lets_pet_btn"><a href="#"><img src="img/let_petstay_btn01.png" alt="会員登録をする"></a></<a>
+                <div class="repeat02">
+                    <div class="bk_02repeat">
+                        <div class="ex03"></div>
+                    </div>
+                </div>
+        </div>
+        <div class="ex04">
+        </div>
+    </main>
+    <footer>
+        <div class="footer_wrap">
+                <div class="flex_wrap">
+                        <p class="logo_footer"><img src="img/logo_footer.png"></h2>
+                        <p class="botton_last"><a href="#"><img src="img/last_botton.png"></a></p>
+                </div>
+            <nav>
+                <div class="navi_wrap">
+                    <ul class="navi_first_wrap">
+                        <div class="navi_flex_wrap">
+                            <li><a href="#"><img src="img/nav_arrow.png">ペットステイを探す</a></li>
+                            <li><a href="#"><img src="img/nav_arrow.png">ペットホストになる</a></li>
+                        </div>
+                        <div class="navi_flex_wrap">
+                            <li><a href="#"><img src="img/nav_arrow.png">お泊まりの様子</a></li>
+                            <li><a href="#"><img src="img/nav_arrow.png">よくある質問</a></li>
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="navi_flex_wrap">
+                            <li><a href="#"><img src="img/nav_arrow.png">会社概要</a></li>
+                            <li><a href="#"><img src="img/nav_arrow.png">お問い合わせ</a></li>
+                        </div>
+                        <div class="navi_flex_wrap">
+                            <li><a href="#"><img src="img/nav_arrow.png">プライバシーポリシー</a></li>
+                            <li><a href="#"><img src="img/nav_arrow.png">キャンセルポリシー</a></li>
+                        </div>
+                        <div class="navi_flex_wrap">
+                            <li><a href="#"><img src="img/nav_arrow.png">利用規約</a></li>
+                            <li><a href="#"><img src="img/nav_arrow.png">特定商法取引法に基づく表示</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+            <div class="footer_app_wrap">
+                <p>アプリでもっと簡単に</p>
+                <div class="footer_app_icon">
+                    <p><a href=""><img src="img/apple_store_btn.png" alt=""></a></p>
+                    <p><a href=""><img src="img/google_play_btn.png" alt=""></a></p>
+                </div>
+            </div>
+            <div class="footer_sns_wrap">
+                <p class="sns_icon"><a href=""><img src="img/footer_fe_icon.png" alt="facebookのアイコン"></a></p>
+                <p class="sns_icon"><a href=""><img src="img/footer_in_icon.png" alt="Instagramのアイコン"></a></p>
+                <p class="sns_icon"><a href=""><img src="img/footer_tw_icon.png" alt="twtterのアイコン"></a></p>
+            </div>
+            <p class="copyright"><small>Copyright &copy; Petstay Inc. All rights reserved.</small></p>
+        </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/petstay_menu.js"></script>
+    <script src="js/swiper.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+$mainColor: #79BB32;
+$bkColor: #F7F2CE;
+$sbColor:#F6D84B;
+
+@mixin more_btn_style($bgColor_btn,$color_btn) {
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    background: $bgColor_btn;
+    font-size: 1.5rem;
+    line-height: 2.5;
+    margin: 0 auto;
+    text-decoration: none;
+    color: $color_btn;
+}
